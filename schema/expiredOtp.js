@@ -3,6 +3,7 @@ const userSchema = require('../schema/schema')
 const otpSchema = require('../schema/otpSchema')
  
 
+
 const expiredOtp = mongoose.Schema({
     Nin:{
         type: Number, 

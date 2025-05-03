@@ -44,6 +44,7 @@ async function verifyUserCredentials(data) {
   } catch (error) {
     console.error('Error:', error);
     alert('An error occurred. Please try again.');
+    
   }
 }
 

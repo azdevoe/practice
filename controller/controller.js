@@ -187,7 +187,6 @@ async function verifyUser(Nin, password){
          const find =await schema.findOne({Nin:Nin})
           if(!find){
               console.log(`user ${Nin} not found`);
-              console.log(`+++++__________________----------==============`);
 
               return{
                 error: true,
